@@ -1,0 +1,75 @@
+<html>
+
+  <head>
+
+    <title> HTML </title>
+    <script>
+    function writeOutput(){
+      document.getElementById("output").innerHTML=
+      document.write("Today Tammy was late to school. When she stepped foot out of her door she stepped in a puddle of <span style='color: blue;'>" +
+      document.getElementById('liquid').value + "</span>, and saw her school bus driving away. Now Tammy looked down and noticed her shoes were <span style='color: blue;'>" +
+     document.getElementById('adjective1').value + "</span>. On her way to school she stopped at  <span style='color: blue;'>" +
+     document.getElementById('place').value +  "</span> to meet up with a <span style='color: blue;'>" +
+      document.getElementById('adjective1').value + "</span> friend, Jimmy. Jimmy and Tammy always  <span style='color: blue;'>" +
+   document.getElementById('verb1').value + "</span> during recess. Jimmy was the best  <span style='color: blue;'>" +
+    document.getElementById('verbing').value + "</span> . He also rode <span style='color: blue;'>"+
+   document.getElementById('animal').value + "</span>  on his free time when he was busy <span style='color: blue;'>" +
+   document.getElementById('verb').value + "</span>. On their way to school they stopped for <span style='color: blue;'>" +
+   document.getElementById('noun').value + "</span>. Believe it or not the teacher didn't even notice Tammy and Jimmy were late.")
+
+
+
+    }
+
+
+    </script>
+  </head>
+
+
+  <body>
+
+
+
+    <form>
+
+      liquid:
+      <input type="text" name="" id="liquid">
+<br> </br>
+
+      adjective:
+      <input type="text" name="" id="adjective1">
+<br> </br>
+
+      Place:
+      <input type="text" name="" id="place">
+<br> </br>
+
+    adjective:
+    <input type="text" name="" id="adjective2">
+<br> </br>
+    Verb:
+    <input type="text" name="" id="verb1">
+<br> </br>
+      Verb ending in ing:
+      <input type="text" name="" id="verbing">
+<br> </br>
+
+      Animals plurol:
+      <input type="text" name="" id="animal">
+<br> </br>
+
+      Verb:
+      <input type="text" name="" id="verb">
+<br> </br>
+
+      Plural noun:
+      <input type="text" name="" id="noun">
+<br> </br>
+
+      <input type="submit" value="Click me!" onclick="writeOutput()">
+
+    </form>
+<div id="output"></div>
+  </body>
+
+</html>
